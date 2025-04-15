@@ -5,7 +5,7 @@
 .footer__top {
     display: flex;
     justify-content: space-between;
-    padding: 40px 0 24px 0;
+    padding: 40px 32px 24px 32px;
 }
 
 .footer__menu-list {
@@ -84,7 +84,7 @@
 
 .footer__bottom {
     border-top: 1px solid var(--border-gray);
-    padding: 16px 0 17px 0;
+    padding: 16px 32px 17px 32px;
     display: flex;
     align-items: center;
     gap: 48px;
