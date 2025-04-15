@@ -106,3 +106,38 @@
     background: var(--teal-medium);
     color: var(--white);
 }
+
+.header__burger-menu {
+    width: 40px;
+    height: 40px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.header__burger-line {
+    width: 18px;
+    height: 2px;
+    border-radius: 1px;
+    background: var(--teal-primary);
+    position: relative;
+}
+
+.header__burger-line::before,
+.header__burger-line::after {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 2px;
+    border-radius: 1px;
+    background: var(--teal-primary);
+}
+
+.header__burger-line::before {
+    top: -5px;
+}
+
+.header__burger-line::after {
+    top: 5px;
+}
