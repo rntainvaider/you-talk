@@ -1,0 +1,16 @@
+@media (max-width: 1439px) {
+    /* HEADER */
+    .header__logo-image {
+        margin-right: 32px;
+    }
+
+    .header__menu {
+        display: flex;
+        gap: 16px;
+    }
+
+    /* BREADCRUMBS */
+    .breadcrumbs__container {
+        padding: 18px 32px 40px 32px;
+    }
+}

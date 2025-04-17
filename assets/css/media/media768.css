@@ -1,0 +1,24 @@
+@media (max-width: 786px) {
+    /* HEADER */
+
+    .header__container {
+        padding: 18px 20px;
+    }
+
+    /* BREADCRUMBS */
+    .breadcrumbs__container {
+        padding: 16px 0 40px 20px;
+    }
+
+    /* BLOG */
+
+    .blog__container {
+        padding: 0 20px;
+    }
+
+    .blog__post-item:nth-child(1),
+    .blog__post-item:nth-child(2) {
+        flex: 1 1 calc(100%);
+        max-width: 588px;
+    }
+}

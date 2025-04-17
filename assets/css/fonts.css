@@ -14,6 +14,17 @@
     font-family: "Montserrat";
     src:
         local("Montserrat"),
+        url("../fonts/Montserrat/Montserrat-Italic.woff") format("woff"),
+        url("../fonts/Montserrat/Montserrat-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src:
+        local("Montserrat"),
         url("../fonts/Montserrat/Montserrat-Regular.woff") format("woff"),
         url("../fonts/Montserrat/Montserrat-Regular.woff2") format("woff2");
     font-weight: 400;
@@ -51,16 +62,5 @@
         url("../fonts/Montserrat/Montserrat-Bold.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Montserrat";
-    src:
-        local("Montserrat"),
-        url("../fonts/Montserrat/Montserrat-Italic.woff") format("woff"),
-        url("../fonts/Montserrat/Montserrat-Italic.woff2") format("woff2");
-    font-weight: 400;
-    font-style: italic;
     font-display: swap;
 }

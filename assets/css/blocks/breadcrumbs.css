@@ -1,35 +1,27 @@
-.breadcrumbs {
-    padding: 16px 32px 30px 32px;
+.breadcrumbs__container {
+    padding: 18px 38px 30px 38px;
 }
 
 .breadcrumbs__list {
     display: flex;
-    gap: 8px;
-    margin-left: 6px;
 }
 
-.breadcrumb__item {
+.breadcrumbs__item {
     display: flex;
-    align-items: center;
 }
 
-.breadcrumb__item::after {
+.breadcrumbs__item::after {
+    content: url("../../icons/arrow-right.svg");
+    margin-left: 4px;
+    margin-right: 8px;
+}
+
+.breadcrumbs__item:last-child::after {
     content: "";
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    margin-left: 8px;
-    background: url("../../icons/breadcrumbs/arrow.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
-.breadcrumb__item:last-of-type::after {
-    content: none;
-}
-
-.breadcrumb__link {
+.breadcrumbs__link {
     font-size: 12px;
     letter-spacing: 0.02em;
-    color: var(--dark-gray-70);
+    color: rgba(51, 51, 51, 0.7);
 }

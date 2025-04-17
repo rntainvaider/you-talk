@@ -1,0 +1,32 @@
+@media (max-width: 320px) {
+    /* HEADER */
+
+    .header__container {
+        padding: 8px 8px 8px 16px;
+    }
+
+    /* BREADCRUMBS */
+    .breadcrumbs__container {
+        padding: 16px 24px;
+    }
+
+    /* BLOG */
+
+    .blog__container {
+        padding: 0 16px;
+    }
+
+    .blog__title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+
+    .blog__filters {
+        white-space: nowrap;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+}
