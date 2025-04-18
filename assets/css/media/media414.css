@@ -29,4 +29,17 @@
         scrollbar-width: none;
         margin-bottom: 16px;
     }
+
+    .blog__container {
+        padding: 0 32px 96px 32px;
+    }
+
+
+    .footer__nav {
+        margin-bottom: 23px;
+    }
+
+    .footer__form {
+        margin-bottom: 23px;
+    }
 }

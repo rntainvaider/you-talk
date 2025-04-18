@@ -22,8 +22,9 @@
     /* BLOG */
 
     .blog__container {
-        padding: 0 33px;
+        padding: 0 32px 96px 32px;
     }
+
 
     .blog__posts {
         justify-content: center;

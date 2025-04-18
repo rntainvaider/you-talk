@@ -18,3 +18,10 @@ button {
     max-width: 1264px;
     margin: 0 auto;
 }
+
+.total-button {
+    border-radius: 4px;
+    background: #35b3a9;
+    font-weight: 700;
+    color: #fff;
+}

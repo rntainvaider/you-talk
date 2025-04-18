@@ -13,4 +13,10 @@
     .breadcrumbs__container {
         padding: 18px 32px 40px 32px;
     }
+
+    .blog__container {
+        padding: 0 32px 96px 32px;
+    }
+
+
 }
